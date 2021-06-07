@@ -3,12 +3,18 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;400;900&display=swap" rel="stylesheet">
   <title>COVID-19 School Data Hub</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
   <script src="js/datamaps.all.min.js"></script>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <style>
+    body {
+      font-family: 'Libre Franklin', sans-serif;
+    }
+
     p {
       margin: 0.5rem 0;
     }
@@ -19,7 +25,7 @@
 
     @media (min-width: 640px) {
       .h-map {
-        height: 450px;
+        height: 550px;
         min-height: auto;
       }
     }
@@ -32,34 +38,39 @@
 
 
   <div class="lg:flex items-center justify-center max-w-7xl mx-auto lg:p-4">
-    <div class="w-full lg:w-1/2 py-6 px-8 bg-gray-100 rounded-lg m-2 h-map">
+    <div class="w-full lg:w-1/2 py-6 px-8 bg-gray-100 rounded-lg mt-0 lg:m-2 h-map text-sm">
       <h1 class="text-2xl font-bold">COVID-19 School Data Hub</h1>
-      <p>A national database to inform policy and research about the
-        COVID-19 pandemic and students in U.S. public schools</p>
+      <p>A national database to inform policy and research about the COVID-19 pandemic and students in U.S. public schools</p>
 
 
       <p>The COVID-19 School Data Hub (CSDH) aims to provide a platform for educators, policymakers, and researchers to understand the impact of the COVID-19 pandemic on students and how they learn in schools.</p>
 
-      <h3 class="text-lg font-bold">Our Data</h3>
+      <h3 class="text-md font-bold">Our Data</h3>
       <p>Data collected for each state through the COVID-19 School Data Hub includes school- or district-level information on the following:
-        Instructional model (e.g., virtual, hybrid, in-person)
-        Enrollment by instructional model
-        COVID-19 case counts among students and/or staff </p>
+        <ul class="list-disc ml-4">
+          <li>Learning model (e.g., virtual, hybrid, in-person)</li>
+          <li>Enrollment by learning model</li>
+          <li>COVID-19 case counts among students and/or staff. </li>
+        </ul>
+        <p>Additional public and private resources will be linkable with these data. The full website (including accessible data) will launch in August, 2021.</p>
+        <p>
+          <em>Funders: This project is generously supported by funding from the Emergent Ventures program at the Mercatus Center, the Chan Zuckerberg Initiative, Arnold Ventures and Brown University.</em>
+        </p>
 
-      <p class="pt-8"><a href="mailto:covid19schooldatahub@gmail.com" class="border-2 text-blue-600 border-blue-300 p-4 rounded-lg mt-4 hover:bg-blue-100">Contact Us</a></p>
+        <p class="pt-8"><a href="mailto:covid19schooldatahub@gmail.com" class="border-2 text-blue-600 border-blue-300 p-4 rounded-lg mt-4 hover:bg-blue-100">Contact Us</a></p>
 
     </div>
-    <div id="usa-map" class="w-full lg:w-1/2 flex items-center justify-center h-map relative mx-auto p-4 bg-gray-100 rounded m-2"></div>
+    <div class="w-full lg:w-1/2 flex items-center justify-center h-map relative mx-auto bg-gray-100 rounded mt-4 lg:mt-2 lg:m-2 ">
+      <div id="usa-map" class="w-full" style="min-height:450px;"> </div>
+    </div>
   </div>
 
   <div class="flex items-center justify-center">
     <a href="https://docs.google.com/forms/d/1T5bgaZ_a59DDon94pZ03B3TKc3_UHSjzJenlu0fAh2Q/edit?usp=sharing" class="bg-blue-600 p-4 rounded text-white m-4 hover:bg-blue-900">Get Involved</a>
-    <a href="https://docs.google.com/spreadsheets/d/17kN6FEURQv19rJTOIX1vJh4IstsMVBuyT7wAbioUUNA/edit?usp=sharing" class="bg-blue-600 p-4 rounded text-white m-4 hover:bg-blue-900">Check Data Availability by State</a>
+    <a href="https://docs.google.com/spreadsheets/d/1wiAChN-AC2fF1-Bgp-lFqCEbV6Sz176MKmwJSGvPAzQ/edit?usp=sharing" class="bg-blue-600 p-4 rounded text-white m-4 hover:bg-blue-900">Check Data Availability by State</a>
   </div>
 
-
   <script src="js/map.js"></script>
-
 
 </body>
 
