@@ -59,8 +59,8 @@ var election = new Datamap({
       "dataPoints": 1
     },
     "KS": {
-      "fillKey": "Zero",
-      "dataPoints": 0
+      "fillKey": "One",
+      "dataPoints": 1
     },
     "KY": {
       "fillKey": "Zero",
@@ -95,8 +95,8 @@ var election = new Datamap({
       "dataPoints": 1
     },
     "MO": {
-      "fillKey": "Two",
-      "dataPoints": 2
+      "fillKey": "One",
+      "dataPoints": 1
     },
     "MT": {
       "fillKey": "One",
@@ -151,8 +151,8 @@ var election = new Datamap({
       "dataPoints": 0
     },
     "RI": {
-      "fillKey": "One",
-      "dataPoints": 1
+      "fillKey": "Three",
+      "dataPoints": 3
     },
     "SC": {
       "fillKey": "Two",
@@ -163,8 +163,8 @@ var election = new Datamap({
       "dataPoints": 0
     },
     "TN": {
-      "fillKey": "One",
-      "dataPoints": 1
+      "fillKey": "Two",
+      "dataPoints": 2
     },
     "TX": {
       "fillKey": "Three",
@@ -191,8 +191,8 @@ var election = new Datamap({
       "dataPoints": 1
     },
     "WV": {
-      "fillKey": "One",
-      "dataPoints": 1
+      "fillKey": "Three",
+      "dataPoints": 3
     },
     "WY": {
       "fillKey": "Zero",
