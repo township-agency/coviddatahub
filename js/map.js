@@ -23,8 +23,8 @@ var election = new Datamap({
       "dataPoints": 0
     },
     "CO": {
-      "fillKey": "One",
-      "dataPoints": 1
+      "fillKey": "Two",
+      "dataPoints": 2
     },
     "DE": {
       "fillKey": "One",
@@ -43,16 +43,16 @@ var election = new Datamap({
       "dataPoints": 1
     },
     "ID": {
-      "fillKey": "Two",
-      "dataPoints": 2
+      "fillKey": "One",
+      "dataPoints": 1
     },
     "IL": {
       "fillKey": "One",
       "dataPoints": 1
     },
     "IN": {
-      "fillKey": "One",
-      "dataPoints": 1
+      "fillKey": "Two",
+      "dataPoints": 2
     },
     "IA": {
       "fillKey": "One",
@@ -115,8 +115,8 @@ var election = new Datamap({
       "dataPoints": 0
     },
     "NH": {
-      "fillKey": "Two",
-      "dataPoints": 2
+      "fillKey": "One",
+      "dataPoints": 1
     },
     "NJ": {
       "fillKey": "Zero",
@@ -155,28 +155,28 @@ var election = new Datamap({
       "dataPoints": 3
     },
     "SC": {
-      "fillKey": "Two",
-      "dataPoints": 2
+      "fillKey": "Zero",
+      "dataPoints": 0
     },
     "SD": {
       "fillKey": "Zero",
       "dataPoints": 0
     },
     "TN": {
-      "fillKey": "Two",
-      "dataPoints": 2
+      "fillKey": "Zero",
+      "dataPoints": 0
     },
     "TX": {
       "fillKey": "Three",
       "dataPoints": 3
     },
     "UT": {
-      "fillKey": "One",
-      "dataPoints": 1
+      "fillKey": "Zero",
+      "dataPoints": 0
     },
     "WI": {
-      "fillKey": "One",
-      "dataPoints": 1
+      "fillKey": "Zero",
+      "dataPoints": 0
     },
     "VA": {
       "fillKey": "Two",
@@ -187,8 +187,8 @@ var election = new Datamap({
       "dataPoints": 1
     },
     "WA": {
-      "fillKey": "One",
-      "dataPoints": 1
+      "fillKey": "Two",
+      "dataPoints": 2
     },
     "WV": {
       "fillKey": "Three",
@@ -199,8 +199,8 @@ var election = new Datamap({
       "dataPoints": 0
     },
     "CA": {
-      "fillKey": "Three",
-      "dataPoints": 3
+      "fillKey": "Zero",
+      "dataPoints": 0
     },
     "CT": {
       "fillKey": "Two",
@@ -215,8 +215,8 @@ var election = new Datamap({
       "dataPoints": 1
     },
     "AL": {
-      "fillKey": "Two",
-      "dataPoints": 2
+      "fillKey": "Zero",
+      "dataPoints": 0
     }
   }
 });
